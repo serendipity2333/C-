@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <orderDetail>
+      <OrderItem>
+        <SingleMoney>10</SingleMoney>
+        <ItemNumber>10</ItemNumber>
+        <ItemName>cup</ItemName>
+      </OrderItem>
+      <OrderItem>
+        <SingleMoney>20</SingleMoney>
+        <ItemNumber>10</ItemNumber>
+        <ItemName>chair</ItemName>
+      </OrderItem>
+      <OrderItem>
+        <SingleMoney>100</SingleMoney>
+        <ItemNumber>1</ItemNumber>
+        <ItemName>table</ItemName>
+      </OrderItem>
+    </orderDetail>
+    <OrderNo>s001</OrderNo>
+    <Client>Bob</Client>
+    <TotalPrice>400</TotalPrice>
+  </Order>
+  <Order>
+    <orderDetail>
+      <OrderItem>
+        <SingleMoney>20</SingleMoney>
+        <ItemNumber>10</ItemNumber>
+        <ItemName>chair</ItemName>
+      </OrderItem>
+    </orderDetail>
+    <OrderNo>s003</OrderNo>
+    <Client>Allen</Client>
+    <TotalPrice>200</TotalPrice>
+  </Order>
+</ArrayOfOrder>
